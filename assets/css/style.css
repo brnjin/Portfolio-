@@ -1,0 +1,47 @@
+ .parallax {
+	/* The image used */
+    background-image: url("../images/contacts.jpg");
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+.parallax2 {
+	/* The image used */
+    background-image: url("../images/Laptop.jpeg");
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.card {
+	text-align: center;
+	margin-bottom: 18px;
+
+}
+
+.name {
+	padding-top: 150px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 70px;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.icon {
+	max-height: 150px;
+	max-width: 150px;
+}
+
+
