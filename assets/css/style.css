@@ -57,4 +57,14 @@
 	max-width: 150px;
 }
 
+.nav-link {
+    margin-right: 25px;
+    font-weight: bold;
+}
 
+.sticky {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
