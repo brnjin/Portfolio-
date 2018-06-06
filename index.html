@@ -1,107 +1,273 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Brian J</title>
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
-	<body>
-		<div>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarNav">
-			    <ul class="navbar-nav ml-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#Projects">Projects</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#Contact">Contact</a>
-			      </li>
-			      <li class="nav-item">
-			      	<a class="nav-link" href="./assets/images/ResumeP.pdf" target="_blank">Resume</a>
-			      </li>
-			      <li class="nav-item">
-			      	<a class="nav-link" href="./assets/images/Balsamiq.pdf" target="_blank">Balsamiq</a>
-			      </li>
-			    </ul>
-			  </div>
-			</nav>
-			<a name="Home"></a>
-			<div class="parallax2">
-				<p class="name">BRIAN JIN</p>
-			</div>
-			<div class="card">
-			  <div class="card-body">
-			    <h5 class="card-title">Info</h5>
-			    <p class="card-text">Full Stack Developer able to build a sophisticated website with a full database backend, api calls to gather relevant data, and front end experience with knowledge of different responsive css frameworks. Excellent at working with a diverse team to efficiently work towards a common goal.</p>
-			    <h5 class="card-title">Skills</h5>
-			    <p class="card-text">Node.js, JavaScript, jQuery, Github, MySQL, Firebase, HTML, XHTML, CSS, Bootstrap, Materialize, REST API, JSON, AJAX, Command line, React, handlebars.js, C#, MongoDB, and Heroku</p>
-			  </div>
-			</div> <!-- End of first section -->
-			<a name="Projects"></a>
-			<div  class="parallaxp">
-				<p class="name">PROJECTS</p>
-			</div>
-			<div class="row">
-				<div class="card col-md-4">
-				  <div class="card-body">
-				    <h5 class="card-title">Package Alert</h5>
-				    <h6 class="card-subtitle mb-2 text-muted"> Tech used:</h6>
-				    <h6 class="card-subtitle mb-2 text-muted">Node.js, HTML, CSS, handlebars.js, Express, MySQL, Bootstrap, and Heroku</h6>
-				    <p class="card-text">Web application for residential community associates to alert residents of any packages that need to be picked up.</p>
-				    <a href="https://whispering-bastion-28782.herokuapp.com/" class="card-link" target="_blank">Click me!</a>
-				  </div>
-				</div>
-				<div class="card col-md-4">
-				  <div class="card-body">
-				    <h5 class="card-title">Durham Youth Connect</h5>
-				    <h6 class="card-subtitle mb-2 text-muted"> Tech used:</h6>
-				    <h6 class="card-subtitle mb-2 text-muted">HTML, CSS3, Materialize, JS, AJAX, jQuery, API, and Firebase</h6>
-				    <p class="card-text">Web application that pulls data from cross-domain data resources with API calls.</p>
-				    <a href="https://still-peak-96277.herokuapp.com/" class="card-link" target="_blank">Click me!</a>
-				  </div>
-				</div>
-				<div class="card col-md-4">
-				  <div class="card-body">
-				    <h5 class="card-title">Mongo Scraper</h5>
-				    <h6 class="card-subtitle mb-2 text-muted"> Tech used:</h6>
-				    <h6 class="card-subtitle mb-2 text-muted">JS, Node.js, HTML, Bootstrap, handlebars.js, MongoDB, Mongoose, Express, Cheerio, Axios, and Heroku</h6>
-				    <p class="card-text">Web application that uses cheerio to scrape the NY Times website and displays the articles to be saved.</p>
-				    <a href="https://protected-sierra-50848.herokuapp.com/" class="card-link" target="_blank">Click me!</a>
-				  </div>
-				</div>
-			</div> <!-- End of Projects section -->
-			<a name="Contact"></a>
-			<div class="parallax">
-				<p class="name">CONTACT</p>
-			</div>
-			<div class="card">
-			  <div class="card-body">
-			  	<p class="card-text">Email: brnjin6@gmail.com  | |  Phone: (919)-744-5378</p>
-				<div class="row offset-md-4">
-					<div class="col-md-3">
-						<a href="https://www.linkedin.com/in/brian-jin-a57891132" target="_blank"><img class="icon" src="./assets/images/linkedin.png"></a>
-					</div>
-					<div class="col-md-3">
-						<a href="https://github.com/brnjin" target="_blank"><img class="icon" src="./assets/images/github.png"></a>
-					</div>
-				</div>
-				<br>
-			    <p class="card-text">Thank you for taking your time to look at my portfolio!</p>
-			    <p class="card-text">Hope to talk to you soon!</p>
-			  </div>
-			</div> <!-- End of contact section -->
-		</div><!-- End top div -->
+<html lang="en">
 
-		<!-- Bootstrap JS  -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	</body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Brian Jin</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/creative.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Brian Jin</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">Full-Stack Web Developer</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Extra! Extra! Hear all about it!</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">I am a new graduate from UNC at Chapel Hill coding bootcamp program and I am eager to start my career as a Web Developer!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Skills</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Sturdy Templates</h3>
+              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Ready to Ship</h3>
+              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Up to Date</h3>
+              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Made with Love</h3>
+              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="projects">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="assets/js/creative.min.js"></script>
+
+  </body>
+
 </html>

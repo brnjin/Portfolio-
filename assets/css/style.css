@@ -3,7 +3,7 @@
     background-image: url("../images/contacts.jpg");
 
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 650px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -16,7 +16,7 @@
     background-image: url("../images/Laptop.jpeg");
 
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 650px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
