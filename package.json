@@ -29,7 +29,7 @@
     "bootstrap": "4.1.1",
     "express": "^4.16.3",
     "font-awesome": "4.7.0",
-    "jquery": "3.3.1",
+    "jquery": "3.4.0",
     "jquery.easing": "^1.4.1",
     "magnific-popup": "^1.1.0",
     "nodemon": "^1.17.5",
